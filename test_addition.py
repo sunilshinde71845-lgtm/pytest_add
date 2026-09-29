@@ -1,7 +1,7 @@
 from addition import no_addition
 
 def test_positive_no():
-    assert no_addition(20,40) == 50
+    assert no_addition(20,40) == 60
 
 def test_zero():
     assert no_addition(10,0) == 10
